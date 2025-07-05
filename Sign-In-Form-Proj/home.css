@@ -1,3 +1,48 @@
-h1{
-    color:blue;
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url('fonts/norse-bold-webfont.woff2') format('woff2'),
+         url('fonts/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: Norse-Bold, sans-serif;
+    background-color: whitesmoke;
+}
+.container{
+    width: 60%;
+    height: 300px;
+    padding-left: 600px;
+}
+form{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 3px 3px 5px grey;
+}
+.fern{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 30%;
+}
+.odin{
+    background-color: black;
+    opacity: 50%;
+    position: fixed;
+    top: 80px;
+    left: 20px;
+    width: 25%;
+}
+.odin-img{
+    height: 200px;
+}
+.odin-word{
+    display: flex;
+    text-align: center;
+    color: white;
+    font-size: 11rem;
+}
+label{
+    padding-right: 50px;
 }
