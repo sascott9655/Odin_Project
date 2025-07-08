@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center; /*same affect as margin: 0 auto  */
+    color: #fff;
+    background-color: #5995DA;
+    padding: 20px 0; /*gives padding to the top and bottom 
+    but not on the left or right  */
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #fff; /* debugging */
+    width: 900px;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login{
+    margin-left: 20px;
+}
+
+.header-container {
+    color: #5995DA;
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social, .logo, .subscribe{
+     border: 1px solid #5995DA;
+}
